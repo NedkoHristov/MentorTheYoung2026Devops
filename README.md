@@ -1,1 +1,2 @@
-This it the master branch for the S10 Mentor The Young 
+The place for Linux related work. \
+The Upskill Linux Challenge will be documented here.
