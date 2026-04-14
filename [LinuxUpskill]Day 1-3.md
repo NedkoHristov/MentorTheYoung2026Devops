@@ -2,8 +2,9 @@
 For the day you had to connect to your server via SSH. If it is a machine I will use frequently I also initiate a copying of my ssh key at the same time. For this task I used the ssh-copy-id command. 
 An example would be: 
 
+'''bash
 ssh-copy-id -i /home/user/.ssh/id_ed25519.pub  labuser@mentee 
-
+'''
 This way it also checks beforehand if you've already set them up or not. \
 Upon successful login I like to add the host to the config file (within the machine used for sshing ~/.ssh/config). Then logging becomes a matter of a single hostname. After logging I always check how the system is doing(usually htop). Today we had to inspect the system. I used the time to run a few standard commands (df -h , uname -a mostly for the kernel info, ) also reviewed the current OS (cat /etc/\*release*). Since this VM is practically unused there is nothing else to really dig into.  
 Confirmed my network interface looks as I wish. 
