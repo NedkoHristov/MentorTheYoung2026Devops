@@ -9,7 +9,7 @@
  Memory - 6144MB \
  Disk - /dev/mapper/ubuntu--vg-ubuntu--lv   79G  5.6G   70G   8% /
  80GB mounted on the root folder. \
- Network - quemu guest agent installed. IP set to 192.168.0.10 outside DHCP range and reserved in the router. 
+ Network - quemu guest agent installed. IP set to 192.168.1.20 outside DHCP range and reserved in the router. 
 
  Internal: \
  Users - labuser (sudoer) \
